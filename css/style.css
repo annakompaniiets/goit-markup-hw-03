@@ -39,6 +39,8 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -68,8 +70,8 @@ img {
 /* LOGO */
 
 .page-header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -141,13 +143,8 @@ img {
 .hero {
   background-color: var(--section-color);
   text-align: center;
-}
-
-.hero-container {
   padding-top: 200px;
-  padding-left: 452px;
   padding-bottom: 200px;
-  padding-right: 452px;
 }
 
 .hero-title {
@@ -158,17 +155,15 @@ img {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  width: 696px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* Features */
-.section-features {
-  padding-top: 94px;
-  padding-bottom: 47px;
-}
 
 .section-examples {
-  padding-top: 47px;
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 
 .features-menu {
@@ -276,7 +271,7 @@ img {
   color: var(--grey-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
 
